@@ -117,7 +117,7 @@ Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais
 
 In this repository you find Orange workflows for processing s-SNOM data. An example dataset including point spectra, spectral linescan and hyperspectral data is provided for educational purposes. All data provided was measured at a synchrotron light source and are a courtesy of F. Feres et al. [1].
 
-## To download these examples click on:
+## Guidlines for downloading the examples files:
 
    - Code;
    - Download the ZIP;
@@ -130,7 +130,7 @@ In this repository you find Orange workflows for processing s-SNOM data. An exam
    - Now you need to indicate the file, in this example we have the filename and the reference written at the top of the orange desktop;
    - And follow the instructions...
 
-#
+## s-SNOM data types
 
 In this equipament is possible to generate 3 main types of data, with a better descrition of this types in this respective folders.
 
@@ -153,9 +153,8 @@ In this equipament is possible to generate 3 main types of data, with a better d
 ![example image](imgs/sample_example.png)
 
 
-
-
-
 References:
 
 [1] - 'F. H. Feres, R. A. Mayer, L. Wehmeier, F. C. B. Maia, E. R. Viana, A. Malachias, H. A. Bechtel, J. M. Klopf, L. M. Eng, S. C. Kehr, J. C. González, R. O. Freitas, I. D. Barcelos, Nat. Commun. 2021, 12, 1995. DOI: [10.1038/s41467-021-22209-w](https://doi.org/10.1038/s41467-021-22209-w).'
+
+[⬆ Voltar ao topo](# Orange workflows for s-SNOM data processing)<br>
