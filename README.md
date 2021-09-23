@@ -120,7 +120,7 @@ In this repository you find Orange workflows for processing s-SNOM data. An exam
 ## Guidlines for downloading and oppening the examples files:
 
 1. Go to https://github.com/raul-freitas/imbuia_workflows
-2. Click on Code and then Download ZIP;
+2. Click on [![Code] and then Download ZIP;
    - Download the ZIP;
     - This will take a while, because it is a large file.
    - Select the folder and extract;
