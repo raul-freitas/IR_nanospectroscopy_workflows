@@ -8,7 +8,7 @@ In this repository there is some examples about how to open and post-process fil
 The experimental data used in these examples was courtesy of FERES (2021).
 
 ------------
-============================
+----------
 
 To download these examples click on:
 
