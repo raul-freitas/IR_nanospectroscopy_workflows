@@ -7,8 +7,8 @@ In this repository you find Orange workflows for processing s-SNOM data. An exam
 1. Go to https://github.com/raul-freitas/imbuia_workflows
 2. Click on **Code** and then **Download ZIP**. This can take some time...
 3. Select the folder and extract;
-4. Open the Orange app (for Orange installation, access the links [Quasar](https://quasar.codes) or [Orange](https://orangedatamining.com). It is mandatory to have the **Spectroscopy Add-On** installed for this kind of data processing.)
-5. In the Orange app, click on **File ⇨ Open** then select the workflow (file.ows)  
+4. Open the Orange app (for Orange installation, access the links [Quasar](https://quasar.codes) or [Orange](https://orangedatamining.com). It is mandatory to have the **Spectroscopy** Add-On installed for this kind of data processing.);
+5. In the Orange app, click on **File ⇨ Open** then select the workflow (file.ows)
 
    - Now you need to indicate the file, in this example we have the filename and the reference written at the top of the orange desktop;
    - And follow the instructions...
