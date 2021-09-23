@@ -1,4 +1,4 @@
-# Orange Workflows for s-SNOM
+# Orange workflows for s-SNOM data processing
 
 
 
