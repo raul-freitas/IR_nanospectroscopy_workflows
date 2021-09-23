@@ -117,9 +117,9 @@ Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais
 
 In this repository you find Orange workflows for processing s-SNOM data. An example dataset including point spectra, spectral linescan and hyperspectral data is provided for educational purposes. All data provided was measured at a synchrotron light source and are a courtesy of F. Feres et al. [1].
 
-## Guidlines for downloading the examples files:
+## Guidlines for downloading and oppening the examples files:
 
-   - Code;
+   - Click on Code;
    - Download the ZIP;
     - This will take a while, because it is a large file.
    - Select the folder and extract;
