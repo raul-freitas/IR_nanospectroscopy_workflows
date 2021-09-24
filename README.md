@@ -1,4 +1,4 @@
-# Orange workflows for s-SNOM data processing
+# Orange workflows for s-SNOM nanospectroscopy data processing
 
 In this repository you find Orange workflows for processing s-SNOM data. An example dataset including point spectra, spectral linescan and hyperspectral data is provided for educational purposes. All data provided was measured at a synchrotron light source and are a courtesy of Feres *et al.* [1].
 
@@ -10,12 +10,14 @@ In this repository you find Orange workflows for processing s-SNOM data. An exam
 4. Open the Orange app (for Orange installation, access the links [Quasar](https://quasar.codes) or [Orange](https://orangedatamining.com). It is mandatory to have the **Spectroscopy** Add-On installed for this kind of data processing.);
 5. In the Orange app, click on **File ⇨ Open** then select the workflow (file.ows)
 
-## s-SNOM files types
-In this equipament is possible to generate 3 main types of data, with a better descrition of this types in this respective folders.
+## Broadband s-SNOM nanospectroscopy measuring modes
+s-SNOM is a scanning probe ultramicroscopy modality that combines AFM and IR-visible microscopy. For the case of s-SNOM operating with broadband sources, the technique enables nanoscale spectroscopy (Figure a). As a scanning technique, it can operate point-spectral analysis (Figure b), spectral linescan (Figure c) and hyperspectral imaging (Figure d). 
 
 <p align="center">
-<img width="500" src="nanospectroscopy_modes.svg"/>
+<img width="1200" src="nanospectroscopy_modes.svg"/>
 <p/>
+
+For processing data measured in these different s-SNOM modes, we provide the following Orange workflows:
 
  - [Point Spectrum](point-spectrum/):
 
