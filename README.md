@@ -8,29 +8,28 @@ In this repository you find Orange workflows for processing s-SNOM data. An exam
 2. Click on **Code** and then **Download ZIP**. This can take some time...
 3. Select the folder and extract;
 4. Open the Orange app (for Orange installation, access the links [Quasar](https://quasar.codes) or [Orange](https://orangedatamining.com). It is mandatory to have the **Spectroscopy** Add-On installed for this kind of data processing.);
-5. In the Orange app, click on **File ⇨ Open** then select the workflow (file.ows)
 
 ## Broadband s-SNOM nanospectroscopy measuring modes
 s-SNOM is a scanning probe ultramicroscopy modality that combines AFM and IR-visible microscopy. For the case of s-SNOM operating with broadband sources, the technique enables nanoscale spectroscopy (Figure a). As a scanning technique, it can operate point-spectral analysis (Figure b), spectral linescan (Figure c) and hyperspectral imaging (Figure d). 
 
 <p align="center">
-<img width="1200" src="nanospectroscopy_modes.svg"/>
+<img width="1200" src="img/nanospectroscopy_modes.svg"/>
 <p/>
 
 For data processing of measurents of different s-SNOM modes, we provide the following Orange workflows:
 
- - [Point Spectrum](point-spectrum/):
+ - [Point Spectrum](point_spectrum/):
 
 	This is just a spectrum measured in just one position.
 
 	This data has a full spectrum data, wavenumber approximately 600 cm<sup>-1</sup> up to 2000 cm<sup>-1</sup>, but in only one pixel.
 
- - [Linescan](linescan/):
+ - [Linescan](spectral_linescan/):
 
  	In this case, a full spectrum of each pixel along a path choose is during the experiment.
 
 
- - [Hyperspectral Image](hyper/):
+ - [Hyperspectral Image](hyperspectral_map/):
 
  	In the last type is a full spectrum on each pixel inside an area.
 
@@ -40,6 +39,6 @@ For data processing of measurents of different s-SNOM modes, we provide the foll
 
 References:
 
-[1] 'F. H. Feres, R. A. Mayer, L. Wehmeier, F. C. B. Maia, E. R. Viana, A. Malachias, H. A. Bechtel, J. M. Klopf, L. M. Eng, S. C. Kehr, J. C. González, R. O. Freitas, I. D. Barcelos, Nat. Commun. 2021, 12, 1995. DOI: [10.1038/s41467-021-22209-w](https://doi.org/10.1038/s41467-021-22209-w).'
+[1] F. H. Feres, R. A. Mayer, L. Wehmeier, F. C. B. Maia, E. R. Viana, A. Malachias, H. A. Bechtel, J. M. Klopf, L. M. Eng, S. C. Kehr, J. C. González, R. O. Freitas, I. D. Barcelos, Nat. Commun. 2021, 12, 1995. DOI: [10.1038/s41467-021-22209-w](https://doi.org/10.1038/s41467-021-22209-w).
 
-[⬆ Voltar ao topo](#Orange-workflows-for-s-SNOM-data-processing)<br>
+[⬆ Back to the top](#Orange-workflows-for-s-SNOM-data-processing)<br>
