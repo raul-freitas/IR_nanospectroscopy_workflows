@@ -12,7 +12,10 @@ In this repository you find Orange workflows for processing s-SNOM data. An exam
 
 ## s-SNOM files types
 In this equipament is possible to generate 3 main types of data, with a better descrition of this types in this respective folders.
-![](nanospectroscopy_modes.svg)
+
+<p align="center">
+<img width="500" src="nanospectroscopy_modes.svg"/>
+<p/>
 
  - [Point Spectrum](point-spectrum/):
 
