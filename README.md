@@ -43,7 +43,6 @@ In this repository you find [Orange](https://orangedatamining.com) workflows for
     ├── info.md
     └── txt_linescan_workflow.ows
 
-}
 ```
 5. Open the Orange app (for Orange installation, access the links [Quasar](https://quasar.codes) or [Orange](https://orangedatamining.com). It is mandatory to have the **Spectroscopy** Add-On installed for this kind of data processing.);
 6. Load a specific workflow based on the measurement mode, as described below.
