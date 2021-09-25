@@ -16,7 +16,7 @@ s-SNOM is a scanning probe ultramicroscopy modality that combines AFM and IR-vis
 <img width="1200" src="img/nanospectroscopy_modes.svg"/>
 <p/>
 
-For data processing of measurents of different s-SNOM modes, we provide the following Orange workflows:
+For data processing of measurents of different s-SNOM modes, we provide the following Orange workflows (files.ows):
 
  - [Point Spectrum](point_spectrum/)
 
