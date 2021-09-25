@@ -9,7 +9,7 @@ In this repository you find [Orange](https://orangedatamining.com) workflows for
 3. You should get the following files structure:
 
 ```
-├── README.md
+├── info.md
 ├── dataset
 │   ├── NF S REFERENCE linescan-hyp M2A raw.gsf
 │   ├── NF S REFERENCE linescan-hyp M2P raw.gsf
