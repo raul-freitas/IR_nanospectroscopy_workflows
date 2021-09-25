@@ -2,7 +2,7 @@
 
 In this repository you find [Orange](https://orangedatamining.com) workflows for processing s-SNOM data. An example dataset including point spectra, spectral linescan and hyperspectral mapping is provided for educational purposes. All data provided was measured with synchrotron IR broadband light sources and are a courtesy of Feres *et al.* [1].
 
-## Guidlines for downloading and oppening workflows:
+## Guidelines for downloading and oppening workflows:
 
 1. Go to https://github.com/raul-freitas/imbuia_workflows
 2. Click on **Code** and then **Download ZIP**. This can take some time...
