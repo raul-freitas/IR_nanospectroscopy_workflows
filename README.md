@@ -46,7 +46,7 @@ In this repository you find [Orange](https://orangedatamining.com) workflows for
 }
 ```
 5. Open the Orange app (for Orange installation, access the links [Quasar](https://quasar.codes) or [Orange](https://orangedatamining.com). It is mandatory to have the **Spectroscopy** Add-On installed for this kind of data processing.);
-6. Load a specific workflow from the list below.
+6. Load a specific workflow based on the measurement mode, as described below.
 
 ## Broadband s-SNOM nanospectroscopy measuring modes
 s-SNOM is a scanning probe ultramicroscopy modality that combines AFM and IR-visible microscopy. For the case of s-SNOM operating with broadband sources, the technique enables nanoscale spectroscopy (Figure a). As a scanning technique, it can operate point-spectral analysis (Figure b), spectral linescan (Figure c) and hyperspectral imaging (Figure d). 
