@@ -9,12 +9,39 @@ In this repository you find [Orange](https://orangedatamining.com) workflows for
 3. Select the folder and extract;
 
 ```kotlin
-object **SEU NOME** {
- val name = "SEU NOME COMPLETO"
- val acknowledgements = "ÁREA DE CONHECIMENTO"
- 
- val primarySkillset = "ALGUMAS HABILIDADES"
- val languages = listOf("Java", "Python", "JavaScript", "Kotlin", "React") 
+├── README.md
+├── dataset
+│   ├── NF\ S\ REFERENCE\ linescan-hyp\ M2A\ raw.gsf
+│   ├── NF\ S\ REFERENCE\ linescan-hyp\ M2P\ raw.gsf
+│   ├── NF\ S\ REFERENCE\ linescan-hyp\ Spectra.txt
+│   ├── NF\ S\ REFRENCE\ point-spectrum\ M2A\ raw.gsf
+│   ├── NF\ S\ REFRENCE\ point-spectrum\ M2P\ raw.gsf
+│   ├── NF\ S\ REFRENCE\ point-spectrum\ Spectra.txt
+│   ├── NF\ S\ SAMPLE\ hyp\ M2A\ raw.gsf
+│   ├── NF\ S\ SAMPLE\ hyp\ M2P\ raw.gsf
+│   ├── NF\ S\ SAMPLE\ hyp\ Spectra.txt
+│   ├── NF\ S\ SAMPLE\ linescan\ M2A\ raw.gsf
+│   ├── NF\ S\ SAMPLE\ linescan\ M2P\ raw.gsf
+│   ├── NF\ S\ SAMPLE\ linescan\ Spectra.txt
+│   ├── NF\ S\ SAMPLE\ point-spectrum\ M2A\ raw.gsf
+│   ├── NF\ S\ SAMPLE\ point-spectrum\ M2P\ raw.gsf
+│   ├── NF\ S\ SAMPLE\ point-spectrum\ Spectra.txt
+│   └── info.md
+├── hyperspectral_map
+│   ├── gsf_hyperspectral_workflow.ows
+│   ├── info.md
+│   └── txt_hyperspectral_workflow.ows
+├── img
+│   ├── info.md
+│   └── nanospectroscopy_modes.svg
+├── point_spectrum
+│   ├── gsf_point_spectrum_workflow.ows
+│   ├── info.md
+│   └── txt_point_spectrum_workflow.ows
+└── spectral_linescan
+    ├── gsf_linescan_workflow.ows
+    ├── info.md
+    └── txt_linescan_workflow.ows
 
 }
 ```
