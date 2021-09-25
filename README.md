@@ -8,24 +8,24 @@ In this repository you find [Orange](https://orangedatamining.com) workflows for
 2. Click on **Code** and then **Download ZIP**. This can take some time...
 3. Select the folder and extract;
 
-```kotlin
+```
 ├── README.md
 ├── dataset
-│   ├── NF\ S\ REFERENCE\ linescan-hyp\ M2A\ raw.gsf
-│   ├── NF\ S\ REFERENCE\ linescan-hyp\ M2P\ raw.gsf
-│   ├── NF\ S\ REFERENCE\ linescan-hyp\ Spectra.txt
-│   ├── NF\ S\ REFRENCE\ point-spectrum\ M2A\ raw.gsf
-│   ├── NF\ S\ REFRENCE\ point-spectrum\ M2P\ raw.gsf
-│   ├── NF\ S\ REFRENCE\ point-spectrum\ Spectra.txt
-│   ├── NF\ S\ SAMPLE\ hyp\ M2A\ raw.gsf
-│   ├── NF\ S\ SAMPLE\ hyp\ M2P\ raw.gsf
-│   ├── NF\ S\ SAMPLE\ hyp\ Spectra.txt
-│   ├── NF\ S\ SAMPLE\ linescan\ M2A\ raw.gsf
-│   ├── NF\ S\ SAMPLE\ linescan\ M2P\ raw.gsf
-│   ├── NF\ S\ SAMPLE\ linescan\ Spectra.txt
-│   ├── NF\ S\ SAMPLE\ point-spectrum\ M2A\ raw.gsf
-│   ├── NF\ S\ SAMPLE\ point-spectrum\ M2P\ raw.gsf
-│   ├── NF\ S\ SAMPLE\ point-spectrum\ Spectra.txt
+│   ├── NF S REFERENCE linescan-hyp M2A raw.gsf
+│   ├── NF S REFERENCE linescan-hyp M2P raw.gsf
+│   ├── NF S REFERENCE linescan-hyp Spectra.txt
+│   ├── NF S REFRENCE point-spectrum M2A raw.gsf
+│   ├── NF S REFRENCE point-spectrum M2P raw.gsf
+│   ├── NF S REFRENCE point-spectrum Spectra.txt
+│   ├── NF S SAMPLE hyp M2A raw.gsf
+│   ├── NF S SAMPLE hyp M2P raw.gsf
+│   ├── NF S SAMPLE hyp Spectra.txt
+│   ├── NF S SAMPLE linescan M2A raw.gsf
+│   ├── NF S SAMPLE linescan M2P raw.gsf
+│   ├── NF S SAMPLE linescan Spectra.txt
+│   ├── NF S SAMPLE point-spectrum M2A raw.gsf
+│   ├── NF S SAMPLE point-spectrum M2P raw.gsf
+│   ├── NF S SAMPLE point-spectrum Spectra.txt
 │   └── info.md
 ├── hyperspectral_map
 │   ├── gsf_hyperspectral_workflow.ows
