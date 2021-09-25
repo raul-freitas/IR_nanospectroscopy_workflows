@@ -1,6 +1,6 @@
 # Orange workflows for s-SNOM nanospectroscopy data processing
 
-In this repository you find Orange workflows for processing s-SNOM data. An example dataset including point spectra, spectral linescan and hyperspectral mapping is provided for educational purposes. All data provided was measured with synchrotron IR broadband light sources and are a courtesy of Feres *et al.* [1].
+In this repository you find [Orange](https://orangedatamining.com) workflows for processing s-SNOM data. An example dataset including point spectra, spectral linescan and hyperspectral mapping is provided for educational purposes. All data provided was measured with synchrotron IR broadband light sources and are a courtesy of Feres *et al.* [1].
 
 ## Guidlines for downloading and oppening workflows:
 
@@ -25,7 +25,7 @@ For data processing of measurents using different s-SNOM modes, we provide the f
 
  - [Hyperspectral Mapping](hyperspectral_map/)
 
-References:
+## References
 
 [1] F. H. Feres, R. A. Mayer, L. Wehmeier, F. C. B. Maia, E. R. Viana, A. Malachias, H. A. Bechtel, J. M. Klopf, L. M. Eng, S. C. Kehr, J. C. González, R. O. Freitas, I. D. Barcelos, Nat. Commun. 2021, 12, 1995. DOI: [10.1038/s41467-021-22209-w](https://doi.org/10.1038/s41467-021-22209-w).
 
