@@ -6,7 +6,7 @@ In this repository you find [Orange](https://orangedatamining.com) workflows for
 
 1. Go to https://github.com/raul-freitas/imbuia_workflows
 2. Click on **Code** and then **Download ZIP**. This can take some time...
-3. Select the folder and extract;
+3. The following files structure should be found in your downloaded pack:
 
 ```
 ├── README.md
