@@ -9,6 +9,7 @@ In this repository you find [Orange](https://orangedatamining.com) workflows for
 3. The following files structure should be found in your downloaded pack:
 
 ```
+<font size="1">
 ├── README.md
 ├── dataset
 │   ├── NF S REFERENCE linescan-hyp M2A raw.gsf
@@ -44,6 +45,7 @@ In this repository you find [Orange](https://orangedatamining.com) workflows for
     └── txt_linescan_workflow.ows
 
 }
+</font>
 ```
 5. Open the Orange app (for Orange installation, access the links [Quasar](https://quasar.codes) or [Orange](https://orangedatamining.com). It is mandatory to have the **Spectroscopy** Add-On installed for this kind of data processing.);
 6. Load a specific workflow from the list below.
