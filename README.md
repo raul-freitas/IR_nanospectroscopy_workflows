@@ -9,7 +9,7 @@ In this repository you find [Orange](https://orangedatamining.com) workflows for
 3. You should get the following files structure:
 
 ```
-├── info.md
+├── README.md
 ├── dataset
 │   ├── NF S REFERENCE linescan-hyp M2A raw.gsf
 │   ├── NF S REFERENCE linescan-hyp M2P raw.gsf
@@ -26,21 +26,21 @@ In this repository you find [Orange](https://orangedatamining.com) workflows for
 │   ├── NF S SAMPLE point-spectrum M2A raw.gsf
 │   ├── NF S SAMPLE point-spectrum M2P raw.gsf
 │   ├── NF S SAMPLE point-spectrum Spectra.txt
-│   └── info.md
+│   └── README.md
 ├── hyperspectral_map
 │   ├── gsf_hyperspectral_workflow.ows
-│   ├── info.md
+│   ├── README.md
 │   └── txt_hyperspectral_workflow.ows
 ├── img
-│   ├── info.md
+│   ├── README.md
 │   └── nanospectroscopy_modes.svg
 ├── point_spectrum
 │   ├── gsf_point_spectrum_workflow.ows
-│   ├── info.md
+│   ├── README.md
 │   └── txt_point_spectrum_workflow.ows
 └── spectral_linescan
     ├── gsf_linescan_workflow.ows
-    ├── info.md
+    ├── README.md
     └── txt_linescan_workflow.ows
 
 ```
