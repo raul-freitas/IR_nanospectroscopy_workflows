@@ -9,40 +9,47 @@ In this repository you find [Orange](https://orangedatamining.com) workflows for
 3. You should get the following files structure:
 
 ```
-├── README.md
 ├── dataset
-│   ├── NF S REFERENCE linescan-hyp M2A raw.gsf
-│   ├── NF S REFERENCE linescan-hyp M2P raw.gsf
-│   ├── NF S REFERENCE linescan-hyp Spectra.txt
-│   ├── NF S REFRENCE point-spectrum M2A raw.gsf
-│   ├── NF S REFRENCE point-spectrum M2P raw.gsf
-│   ├── NF S REFRENCE point-spectrum Spectra.txt
-│   ├── NF S SAMPLE hyp M2A raw.gsf
-│   ├── NF S SAMPLE hyp M2P raw.gsf
-│   ├── NF S SAMPLE hyp Spectra.txt
-│   ├── NF S SAMPLE linescan M2A raw.gsf
-│   ├── NF S SAMPLE linescan M2P raw.gsf
-│   ├── NF S SAMPLE linescan Spectra.txt
-│   ├── NF S SAMPLE point-spectrum M2A raw.gsf
-│   ├── NF S SAMPLE point-spectrum M2P raw.gsf
-│   ├── NF S SAMPLE point-spectrum Spectra.txt
+│   ├── hyp_dataset
+│   │   ├── NF S REFERENCE hyp.html
+│   │   ├── NF S REFERENCE hyp O2A raw.gsf
+│   │   ├── NF S REFERENCE hyp O2P raw.gsf
+│   │   ├── NF S REFERENCE hyp Spectra.txt
+│   │   ├── NF S SAMPLE hyp.html
+│   │   ├── NF S SAMPLE hyp O2A raw.gsf
+│   │   ├── NF S SAMPLE hyp O2P raw.gsf
+│   │   └── NF S SAMPLE hyp Spectra.txt
+│   ├── linescan_dataset
+│   │   ├── NF S REFERENCE linescan.html
+│   │   ├── NF S REFERENCE linescan O2A raw.gsf
+│   │   ├── NF S REFERENCE linescan O2P raw.gsf
+│   │   ├── NF S REFERENCE linescan Spectra.txt
+│   │   ├── NF S SAMPLE linescan.html
+│   │   ├── NF S SAMPLE linescan O2A raw.gsf
+│   │   ├── NF S SAMPLE linescan O2P raw.gsf
+│   │   └── NF S SAMPLE linescan Spectra.txt
+│   ├── point-spectrum_dataset
+│   │   ├── NF S REFRENCE point-spectrum.html
+│   │   ├── NF S REFRENCE point-spectrum O2A raw.gsf
+│   │   ├── NF S REFRENCE point-spectrum O2P raw.gsf
+│   │   ├── NF S REFRENCE point-spectrum Spectra.txt
+│   │   ├── NF S SAMPLE point-spectrum.html
+│   │   ├── NF S SAMPLE point-spectrum O2A raw.gsf
+│   │   ├── NF S SAMPLE point-spectrum O2P raw.gsf
+│   │   └── NF S SAMPLE point-spectrum Spectra.txt
 │   └── README.md
-├── hyperspectral_map
-│   ├── gsf_hyperspectral_workflow.ows
-│   ├── README.md
-│   └── txt_hyperspectral_workflow.ows
 ├── img
+│   ├── nanospectroscopy_modes.svg
+│   └── README.md
+├── README.md
+└── workflows
 │   ├── README.md
-│   └── nanospectroscopy_modes.svg
-├── point_spectrum
+│   ├── gsf_hyperspectral_workflow.ows
+│   ├── gsf_linescan_workflow.ows
 │   ├── gsf_point_spectrum_workflow.ows
-│   ├── README.md
-│   └── txt_point_spectrum_workflow.ows
-└── spectral_linescan
-    ├── gsf_linescan_workflow.ows
-    ├── README.md
-    └── txt_linescan_workflow.ows
-
+│   ├── txt_hyperspectral_workflow.ows
+│   ├── txt_linescan_workflow.ows
+│   └──txt_point_spectrum_workflow.ows
 ```
 5. Open the Orange app (for Orange installation, access the links [Quasar](https://quasar.codes) or [Orange](https://orangedatamining.com). It is mandatory to have the **Spectroscopy** Add-On installed for this kind of data processing.);
 6. Load a specific workflow based on the measurement mode, as described below.
@@ -56,11 +63,11 @@ s-SNOM is a scanning probe ultramicroscopy modality that combines AFM and IR-vis
 
 For data processing of measurents using different s-SNOM modes, we provide the following Orange workflows (files.ows):
 
- - [Point Spectrum](point_spectrum/)
+ - [Point Spectrum](workflows/)
 
- - [Spectral Linescan](spectral_linescan/)
+ - [Spectral Linescan](workflows/)
 
- - [Hyperspectral Mapping](hyperspectral_map/)
+ - [Hyperspectral Mapping](workflows/)
 
 ## References
 
