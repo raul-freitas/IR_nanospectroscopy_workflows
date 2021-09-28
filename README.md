@@ -61,11 +61,11 @@ s-SNOM is a scanning probe ultramicroscopy modality that combines AFM and IR-vis
 <img width="1200" src="img/nanospectroscopy_modes.svg"/>
 <p/>
 
-For data processing measurents from different s-SNOM modes, we provide the following Orange [workflows](workflows/)(files .ows):
+For data processing measurents from different s-SNOM modes, we provide the following Orange [workflows](workflows/) (files .ows):
 
- - Point Spectrum: a set of spectra taken from a single location on the sample. Recommended for local nano-spectroscopy analysis.
- - Spectral Linescan: a set of point spectra acquired along a straight line. Recommended for study of interfaces.
- - Hyperspectral Mapping: a 2D matrix of point spectra. Recommended for multi-spectral nano-imaging cases. 
+ - **Point Spectrum:** a set of spectra from a single location on the sample. Recommended for local nano-spectroscopy.
+ - **Spectral Linescan:** a set of point spectra acquired along a straight line. Recommended for study of interfaces.
+ - **Hyperspectral Mapping:** a 2D matrix of point spectra. Recommended for multi-spectral nano-imaging cases. 
 
 ## References
 
