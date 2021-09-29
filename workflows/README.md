@@ -13,7 +13,7 @@ To process NeaSnom raw interferograms, it is **mandatory** that the following fi
     ├── file name O2P raw.gsf
     └── file name.html
 ```
->*Files content:*
+>*Files content and designation:*
 >- **O** represents **optical channel**; 
 >- **2** indicates the **2nd harmonic**. Eventually, one can decide to process complex interferograms of the 3rd (O3) or 4th harmonic (O4) of the optical channel.
 >- **A** and **P** represent **amplitude** and **phase**, respectively.
@@ -21,80 +21,58 @@ To process NeaSnom raw interferograms, it is **mandatory** that the following fi
 
 A typical workflow for processing \*.gsf files is presented:
 
+<p align="center">
+<img width="1200" src="/img/gsf_ptspec_wrkflow.svg"/>
+<p/>
+
+**Loading procedure:**
+1. Double click on the *Multifile widget* (either SAMPLE or REFERENCE), click on *Clear* and then on the folder to select the data from the [dataset](/dataset/);
+2. Define the specific reader *NeaSPEC raw files (\*.gsf)* and then select one of the \*.gsf files in the folder (O2A.gsf or O2P.gsf). Do this procedure for both SAMPLE and REFERENCE files;
+3. Files are loaded and the workflow is ready. To double check the loading procedure, click on the visualization widgets (*Spectra*, *Spectral Series* or *Hyperspectra*). The spectral data should be displayed.
+
+### 2. Processing multi-channel spectra data (\*.txt)
+The \*.txt spectra file is a standalone file that contains all the information and data from point-spectra, spectral linescan and hyperspectral measurements. The file contains amplitude and phase spectra from all optical channels (from *O1* to *O5*). The structure of the file is presented below:
+
+```diff
+# www.neaspec.com
+# Scan:	 	Fourier Scan
+# Project:	 	Raul_May_2019
+# Description:	 	Au_10cm-1_1024px_CEN_600cm-1
+# Date:	 	05/18/2019 15:12:53
+# Scanner Center Position (X, Y):	[µm]	49.76	49.71	 
+# Rotation:	[°]	0	 	 
+# Scan Area (X, Y, Z):	[µm]	0.000	0.000	0.000
+# Pixel Area (X, Y, Z):	[px]	1	1	1024
+# Interferometer Center/Distance:	[µm]	600.000	500.000	 
+# Averaging:	 	40	 	 
+# Integration time:	[ms]	20	 	 
+# Laser Source:	 	Synchrotron
+# Target Wavelength:	[µm]		 	 
+# Demodulation Mode:	 	Fourier
+# Tip Frequency:	[Hz]	237,581.187	 	 
+# Tip Amplitude:	[mV]	22.000	 	 
+# Tapping Amplitude:	[nm]	92.004	 	 
+# Modulation Frequency:	[Hz]	0.000	 	 
+# Modulation Amplitude:	[mV]	0.000	 	 
+# Modulation Offset:	[mV]	0.000	 	 
+# Setpoint:	[%]	73.54	 	 
+# Regulator (P, I, D):	 	3.507821	9.892523	1.000000
+# Tip Potential:	[mV]	0.000	 	 
+# M1A Scaling:	[nm/V]	4.978	 	 
+# Version:	 	1.8.4702.0
+Row Column  Omega   Wavenumber  O0A   O0P   O1A   O1P   O2A   O2P   O3A   O3P   O4A   O4P   O5A   O5P
+```
+
+**Loading procedure:**
+1. Double click on the *Multifile widget* (either SAMPLE or REFERENCE), click on *Clear* and then on the folder to select the data from the [dataset](/dataset/);
+2. Define the specific reader *NeaSPEC (\*.nea, \*.txt)* and then select one of the \*.txt file in the folder. Do this procedure for both SAMPLE and REFERENCE files;
+3. Inside the *Multifile widget*, go to the last rows of the data table... 
+4. File is loaded and the workflow is ready. To double check the loading procedure, click on the visualization widgets (*Spectra*, *Spectral Series* or *Hyperspectra*). The spectral data should be displayed.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### 2. Fourier processed data (\*.txt)
-
-
-
-
-
-
-
-
-- Open with ***Multifile***, when selecting the file "*[...] O2A raw.gsf*" or "*[...] O2P raw.gsf*" you need to select a specific reader, to raw files, needs to be **"*NeaSPEC raw files (\*. gsf)* "**, and the software will take care of finding the other 2 files, if they are in the same folder
-
-- After opening the interferogram files, it is necessary to apply a Fast Fourier Transform (FFT), for that it is necessary to use the ***Interferogram to Spectrum*** widget, there are some settings available to users, such as Zero fill factor and what type of apodization you want to use. But you can just live by default if you don't want to change.
-
-- The result of FFT is two files, "O2A" amplitude spectrum and "O2P" phase spectrum, this two files need to be splipted, for you can use them. For this you will use the ***Select Rows*** widget. Input the data from ***Interferogram to Spectrum*** in ***Select Rows***, open ***Select Rows*** and in Conditions add **channel** and type or select ***O2A***, now you have only *amplitude* spectrum in output. Put another ***Select Rows*** in data from ***Interferogram to Spectrum*** and in Conditions add **channel** and type or select ***O2P***, now you have only *phase* spectrum on another output.
-
-- Now you have two diferent files, Phase Spectrum and Amplitude Spectrum.
-
-### 2. Spectra files
-  
-It is the file generate for the equipament after Fourier Transform. In this file isn't necessary to do Fourier transform 
-
-How to open, second harmonic?
-
-- To open these files you need to have a unique \*.txt file.
-  
-  - "file name" Spectra.txt &rarr; *File with all harmonic data*
-
-- Open with ***Multifile***, when selecting the file "*[...] Spectra.txt*" you need to select a specific reader, to Spectra .txt files, needs to be **"*NeaSPEC(\*. nea \*. txt)* "**.
 
 - In ***Multifile*** you need to change in column: ***name***, line: *channel* ***type*** to *categorical*. It is almost the last line of the file.
 
 - After opening the files, you need to separate the data, for you can use them. For this you will use the ***Select Rows*** widget. Input the data from ***Multifile*** in ***Select Rows***, open ***Select Rows*** and in Conditions add **channel** and type or select ***O2A***, now you have only *amplitude* spectrum in output. Put another ***Select Rows*** in data from ***Multifile***  and in Conditions add **channel** and type or select ***O2P***, now you have only *phase* spectrum on another output. 
 
-## How to normalized these files using a reference spectrum?
-
- - Open the reference file following the procedure described above.
-
- - For normalization it is necessary to use the ***Preprocess Spectra*** widget. Input the experimental data from ***Select Rows*** in ***Preprocess Spectra***, and conect another input from reference data.
- - Open  ***Preprocess Spectra*** and click in *Add preprocessor*, select *Normalize Spectra* and check the box *Normalize by Reference* for Amplitude and *Normalize by Reference (Complex phase)* for phase.
-
-## How to visualize?
-
-### 1. Colormaps by position
-
-  - In this case you need to use the ***HyperSpectra*** widget.
-
-  - Conect the data from  ***Preprocess Spectra*** in ***HyperSpectra***.
-
-  - Open the ***HyperSpectra*** and now you can visualized the normalized data.
-
-  
-### 2. Individual spectra by position
-
-  - In this case you need to use the ***Spectra*** widget.
-
-  - Conect the data from ***HyperSpectra*** in ***Spectra***.
-  
-  - Open the ***HyperSpectra*** and click in the position of interest.
-
-  - Open the ***Spectra*** and now you can visualized the selected data.
