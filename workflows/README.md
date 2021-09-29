@@ -1,10 +1,10 @@
 
-## Data types
+## Workflows for processing s-SNOM data
 The workflows listed above are designed to process two types of s-SNOM data files:
 - **\*.gsf files**: single-channel complex interferograms (raw NeaSnom data)
 - **\*.txt files**: multi-channel complex (non-normalized amplitude and phase) NeaSnom spectra
 
-### 1. Raw data (\*.gsf)
+### 1. Processing raw data (\*.gsf)
 To process NeaSnom raw interferograms, it is **mandatory** that the following files should be in the same folder:
 
 ```diff
@@ -18,6 +18,25 @@ To process NeaSnom raw interferograms, it is **mandatory** that the following fi
 >- **2** indicates the **2nd harmonic**. Eventually, one can decide to process complex interferograms of the 3rd (O3) or 4th harmonic (O4) of the optical channel.
 >- **A** and **P** represent **amplitude** and **phase**, respectively.
 >- **.html** file contains the experimental parameters of the measurement (metadata).
+
+A typical workflow for processing \*.gsf files is presented:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### 2. Fourier processed data (\*.txt)
 
