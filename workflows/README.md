@@ -26,7 +26,7 @@ A typical workflow for processing \*.gsf files is presented:
 <p/>
 
 **Loading procedure:**
-1. Double click on the *Multifile widget* (either SAMPLE or REFERENCE), click on *Clear* and then on the folder to select the data from the [dataset]
+1. Double click on the *Multifile widget* (either SAMPLE or REFERENCE), click on *Clear* and then on the folder to select the data from the [dataset](/dataset/)
 
 
 
