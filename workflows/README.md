@@ -20,11 +20,13 @@ To process NeaSnom raw interferograms, it is **mandatory** that the following fi
 >- **.html** file contains the experimental parameters of the measurement (metadata).
 
 A typical workflow for processing \*.gsf files is presented:
+
 <p align="center">
-<img width="1200" src="img/gsf_ptspec_wrkflow.svg"/>
+<img width="1200" src="/img/gsf_ptspec_wrkflow.svg"/>
 <p/>
 
-
+**Loading procedure:**
+1. Double click on the *Multifile widget* (either SAMPLE or REFERENCE), click on *Clear* and then on the folder to select the data from the [dataset]
 
 
 
