@@ -30,6 +30,9 @@ A typical workflow for processing \*.gsf files is presented:
 2. Define the specific reader *NeaSPEC raw files (\*.gsf)* and then select one of the \*.gsf files in the folder (O2A.gsf or O2P.gsf). Do this procedure for both SAMPLE and REFERENCE files;
 3. Files are loaded and the workflow is ready. To double check the loading procedure, click on the visualization widgets (*Spectra*, *Spectral Series* or *Hyperspectra*). The spectral data should be displayed.
 
+<br/>
+<br/>
+
 ### 2. Processing multi-channel spectra data (\*.txt)
 The \*.txt spectra file is a standalone file that contains all the information and data from point-spectra, spectral linescan and hyperspectral measurements. The file contains amplitude and phase spectra from all optical channels (from *O1* to *O5*). The structure of the file is presented below:
 
