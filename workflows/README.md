@@ -1,31 +1,32 @@
 
-# Workflows
+## Data types
+The workflows listed above are designed to process two types of s-SNOM data files:
+- **\*.gsf files**: single-channel complex interferograms (raw NeaSnom data)
+- **\*.txt files**: multi-channel complex (non-normalized amplitude and phase) NeaSnom spectra
+
+### 1. Raw data (\*.gsf)
+To process NeaSnom raw interferograms, it is **mandatory** that the following files should be in the same folder:
+
+```diff
+└── data_folder
+    ├── file name O2A raw.gsf
+    ├── file name O2P raw.gsf
+    └── file name.html
+```
+>*Files content:*
+>- **O** represents **optical channel**; 
+>- **2** indicates the **2nd harmonic**. Eventually, one can decide to process complex interferograms of the 3rd (O3) or 4th harmonic (O4) of the optical channel.
+>- **A** and **P** represent **amplitude** and **phase**, respectively.
+>- **.html** file contains the experimental parameters of the measurement (metadata).
+
+### 2. Fourier processed data (\*.txt)
 
 
 
 
-The Hypespectral Image is the complex file to generate for this equipment.
 
-There are 2 possible file types:
 
- - Raw files, with extension \*.gsf
- - Spectra files, with extension \*.txt
 
-## How to open these files?
-
-### 1. RAW files
-
-It is the least processed file for equipment, so it is necessary to do the entire mathematical process.
-There are benefits to this approach, as in this case you can have access to all measurements.
-In some cases, it can be important to access SNR from all points, so with raw files you can do this.
-
-How to open?
-
-- To open these files you need to have **3 files in the same folder**, for example to open the second harmonic (O2)
-
-  - "file name" O2A raw.gsf &rarr; *Interferogram of amplitude*
-  - "file name" O2P raw.gsf &rarr; *Interferogram of phase*
-  - "file name" .html &rarr; *File with measurement information*
 
 - Open with ***Multifile***, when selecting the file "*[...] O2A raw.gsf*" or "*[...] O2P raw.gsf*" you need to select a specific reader, to raw files, needs to be **"*NeaSPEC raw files (\*. gsf)* "**, and the software will take care of finding the other 2 files, if they are in the same folder
 
