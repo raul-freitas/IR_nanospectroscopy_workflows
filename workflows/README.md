@@ -66,13 +66,9 @@ Row Column  Omega   Wavenumber  O0A   O0P   O1A   O1P   O2A   O2P   O3A   O3P   
 **Loading procedure:**
 1. Double click on the *Multifile widget* (either SAMPLE or REFERENCE), click on *Clear* and then on the folder to select the data from the [dataset](/dataset/);
 2. Define the specific reader *NeaSPEC (\*.nea, \*.txt)* and then select one of the \*.txt file in the folder. Do this procedure for both SAMPLE and REFERENCE files;
-3. Inside the *Multifile widget*, go to the last rows of the data table... 
-4. File is loaded and the workflow is ready. To double check the loading procedure, click on the visualization widgets (*Spectra*, *Spectral Series* or *Hyperspectra*). The spectral data should be displayed.
+3. Inside the *Multifile widget*, go to the last rows of the data table and make sure the **channel** row Type is set as **categorical**, as illustrated below:
+<p align="left">
+<img width="300" src="/img/categ_row.svg"/>
+<p/>
 
-
-
-
-- In ***Multifile*** you need to change in column: ***name***, line: *channel* ***type*** to *categorical*. It is almost the last line of the file.
-
-- After opening the files, you need to separate the data, for you can use them. For this you will use the ***Select Rows*** widget. Input the data from ***Multifile*** in ***Select Rows***, open ***Select Rows*** and in Conditions add **channel** and type or select ***O2A***, now you have only *amplitude* spectrum in output. Put another ***Select Rows*** in data from ***Multifile***  and in Conditions add **channel** and type or select ***O2P***, now you have only *phase* spectrum on another output. 
-
+5. File is loaded and the workflow is ready. To double check the loading procedure, click on the visualization widgets (*Spectra*, *Spectral Series* or *Hyperspectra*). The spectral data should be displayed.
